@@ -1,0 +1,63 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.jumbotron {
+    background-color: #4278B3 !important;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2%;
+}
+
+.card {
+    width: 25%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #AED3FA;
+    margin: 0;
+}
+
+.card-body {
+    padding: 0;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+h6 {
+    color: rgb(77, 77, 77);
+}
+
+ul {
+    padding: 25px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    
+}
+
+li {
+    width: 90%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px rgb(207, 207, 207) !important;
+}
+
+.list-group {
+    padding: 20px;
+}
+
+.fas {
+    margin-right: 5px;
+}
